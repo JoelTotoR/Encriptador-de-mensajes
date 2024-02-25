@@ -1,0 +1,87 @@
+body{
+    background-image: url(Imagenes/Background-principal.jpg);
+}
+
+.inicio{
+    width: 1080px;
+}
+
+main{
+    background-image: url(Imagenes/mbackground.jpg);
+}
+
+.titulo{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.elementos{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.elementos li{
+    display: inline-block;
+    width: 33%;
+    box-sizing: border-box;
+    height: 25em;
+    text-align: center;
+    vertical-align: top;
+}
+
+label{
+    font-size: 1.5em;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+textarea{
+    border: solid 2px rgba(0, 0, 0, 0.76);
+    border-radius: 15px;
+    resize: none;
+    font-size: 1.4em;
+    margin: 1em 0 0 0;
+    padding: 1em;
+    height: 16em;
+    width: 90%;
+}
+
+.medio{
+    display: inline;
+    padding: 5em 0;
+}
+
+.flecha{
+    rotate: 270deg;
+    height: 8em;
+    width: 10em;
+}
+
+.botonencriptar{
+    font-weight: bold;
+    color: white;
+    margin: 2em 0;
+    height: 25%;
+    width: 60%;
+    font-size: 22px;
+}
+
+.botonencriptar{
+    background-color: rgb(97, 97, 97);
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botonencriptar:hover{
+    transition: 1s all;
+    background-color: rgb(31, 30, 30);
+    transform: scale(1.08);
+}

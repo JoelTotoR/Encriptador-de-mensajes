@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style-principal.css">
+        <title>Encriptador</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="incio">
+                <h1 class="titulo">Encriptador</h1>
+            </div>
+        </header>
+
+        <main>
+            <ul class="elementos">
+                <li>
+                    <label for="mensajeusuario">Mensaje a encriptar</label>
+                    <textarea id="mensajeusuario" required maxlength="416" placeholder="Ingese aqui el mensaje que desea encriptar"></textarea>
+                </li>
+
+                <li class="medio">
+                    <img class="flecha" src="Imagenes/flechaGif.gif">
+                    <button class="botonencriptar">Encriptar</button>
+                </li>
+
+                <li>
+                    <label for="textoencriptado">desencriptador</label>
+                    <textarea id="textoencriptado" readonly placeholder="Aqui estara tu mensaje encriptado"></textarea>
+                </li>
+            </ul>
+        </main>
+        
+        <footer>
+            <p>final</p>
+        </footer>
+    </body>
+
+    <script src="encriptador.js"></script>
+</html>
