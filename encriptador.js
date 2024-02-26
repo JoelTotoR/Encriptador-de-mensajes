@@ -3,13 +3,13 @@ let mensajeSalida = "";
 let opcion;
 
 function encriptar(){
-    opcion = document.getElementById("botonDesencriptar").value;
-    alert(opcion);
     textoUsuario = document.getElementById("mensajeusuario").value;
     mensajeSalida = textoUsuario;
-    document.getElementById("textoencriptado").value = mensajeSalida;
+    document.getElementById("textoencriptado").value = mensajeSalida + "encriptado";
 }
 
 function desencriptar(){
-    alert("Hola")
+    textoUsuario = document.getElementById("mensajeusuario").value;
+    mensajeSalida = textoUsuario;
+    document.getElementById("textoencriptado").value = mensajeSalida + "desencriptado";
 }
