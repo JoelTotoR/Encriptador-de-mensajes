@@ -1,7 +1,15 @@
 let textoUsuario="";
-let mensajeEncriptado = "";
-function encribtar(){
+let mensajeSalida = "";
+let opcion;
+
+function encriptar(){
+    opcion = document.getElementById("botonDesencriptar").value;
+    alert(opcion);
     textoUsuario = document.getElementById("mensajeusuario").value;
-    mensajeEncriptado = textoUsuario;
-    document.getElementById("textoencriptado").value = mensajeEncriptado;
+    mensajeSalida = textoUsuario;
+    document.getElementById("textoencriptado").value = mensajeSalida;
+}
+
+function desencriptar(){
+    alert("Hola")
 }
